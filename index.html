@@ -8,46 +8,50 @@
   <body>
     <main>
       <section class="hero-section">
-        <div class="margin-horizontal-one margin-top">
-          <header>
-            <nav class="nav">
-              <div id="header-logo">
-                <a href="#"
-                  ><span id="logo-style-one">Apps</span
-                  ><span id="logo-style-two">Vill</span></a
-                >
-              </div>
-              <ul class="nav-links">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Our Portfolio</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </nav>
-          </header>
-          <div class="hero-section-content">
-            <div>
-              <h1 class="hero-main-text">Transforming Your Vision into Apps</h1>
-              <p class="hero-secondary-text">
-                The website has some subtext that goes here under the main
-                title. it is a smaller font and the color is lower contrast
-              </p>
-              <button class="primary-btn">Sign up</button>
+        <header>
+          <nav class="nav">
+            <div id="header-logo">
+              <a href="#"
+                ><span id="logo-style-one">Apps</span
+                ><span id="logo-style-two">Vill</span></a
+              >
             </div>
-            <div>
-              <img
-                src="./images/kelly-sikkema-QO1-uXSrkAM-unsplash.jpg"
-                alt="image of an app on a both mobile and desktop"
-                class="hero-image"
-              />
-            </div>
+            <ul class="nav-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Portfolio</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="hero-section-content">
+          <div class="hero-text-container">
+            <h1 class="hero-main-text">Transforming Your Vision into Apps</h1>
+            <p class="hero-secondary-text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Asperiores similique commodi natus earum. Molestiae earum
+              temporibus dolores et atque nam exercitationem harum quia aliquam
+              maxime, quas eius reiciendis a architecto! Ut, magnam nostrum nisi
+              minima non dolorem laborum ullam earum provident iusto, saepe, at
+              harum ad animi molestias iste ex quo.
+            </p>
+            <button class="primary-btn">Sign up</button>
+          </div>
+          <div class="hero-image-container">
+            <img
+              src="./images/kelly-sikkema-QO1-uXSrkAM-unsplash.jpg"
+              alt="image of an app on a both mobile and desktop"
+              class="hero-image"
+              width="100%"
+              height="auto"
+            />
           </div>
         </div>
       </section>
-      <section class="services-section margin-horizontal-two">
-        <div class="flex-container">
-          <h2 class="services-header-text">Service We Offer</h2>
+      <section class="services-section">
+        <div class="services-section-container">
+          <h2 class="services-header-text">Services We Offer</h2>
           <div class="list-services">
-            <div>
+            <div class="services-content">
               <img
                 src="./images/william-hook-9e9PD9blAto-unsplash.jpg"
                 alt="image of an open mobile app"
@@ -58,7 +62,7 @@
                 This is some subtext under and illustration or image
               </p>
             </div>
-            <div>
+            <div class="services-content">
               <img
                 src="./images/carlos-muza-hpjSkU2UYSU-unsplash.jpg"
                 alt="an image of an open web app on a macbook"
@@ -69,7 +73,7 @@
                 This is some subtext under and illustration or image
               </p>
             </div>
-            <div>
+            <div class="services-content">
               <img
                 src="./images/hal-gatewood-weRQAu9TA-A-unsplash.jpg"
                 alt="a ui/ux mockup drawing on paper"
@@ -80,7 +84,7 @@
                 This is some subtext under and illustration or image
               </p>
             </div>
-            <div>
+            <div class="services-content">
               <img
                 src="./images/scott-graham-5fNmWej4tAA-unsplash.jpg"
                 alt="an image of two people working together with their laptops open"
@@ -94,28 +98,40 @@
           </div>
         </div>
       </section>
-      <section>
-        <p>
-          This is an inspiring quote or a testimonial from a customer. Maybe
-          it's just filling up space, or maybe people will actually read it. Who
-          Knows? All I know is that it looks nice
-        </p>
-        <div><p>-Thor, God of Thunder</p></div>
+      <section class="quote-section">
+        <div class="quote-section-content">
+          <p class="quote-description">
+            Exceptional service! From start to finish, our experience with
+            AppsVill has been nothing short of outstanding. The team's
+            commitment to quality, efficiency, and customer satisfaction is
+            truly commendable. Every interaction with their knowledgeable and
+            friendly staff has left us impressed and reassured that we made the
+            right choice.
+          </p>
+          <div class="quote-author-container">
+            <p class="quote-author">Alexandra - CEO InnovateHub Solutions</p>
+          </div>
+        </div>
       </section>
-      <section>
-        <div>
+      <section class="call-to-action-section">
+        <div class="call-to-action-container">
           <div>
-            <p>Call to action! it's time!</p>
-            <p>
-              Sign up for our product by clicking that button right over there!
+            <p class="call-to-action-title">
+              Get an offer you can never refuse!
+            </p>
+            <p class="call-to-action-description">
+              Get in touch with a consultant by clicking that button right over
+              there!
             </p>
           </div>
-          <button>Sign up</button>
+          <div class="button-container">
+            <button class="secondary-btn" type="submit">Sign up</button>
+          </div>
         </div>
       </section>
     </main>
-    <footer>
-      <p>Copyright © The Odin Project 2023</p>
+    <footer class="footer">
+      <p class="footer-text">Copyright © The Odin Project 2023</p>
     </footer>
   </body>
 </html>
