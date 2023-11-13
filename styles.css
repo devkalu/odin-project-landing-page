@@ -25,7 +25,7 @@ ul {
 
 .nav {
   justify-content: space-between;
-  margin: 0 300px;
+  margin: 0 250px;
   padding-top: 30px;
 }
 .nav-links {
@@ -52,7 +52,7 @@ footer {
   justify-content: space-between;
   display: flex;
   gap: 50px;
-  padding: 50px 300px;
+  padding: 50px 250px;
   flex-wrap: wrap;
 }
 #logo-style-one {
@@ -87,7 +87,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 350px;
+  padding: 100px 300px;
 }
 .list-services {
   display: flex;
@@ -163,7 +163,7 @@ section {
   border-bottom-left-radius: 25px;
   justify-content: space-between;
 
-  margin: 100px 300px;
+  margin: 100px 250px;
   flex-wrap: wrap;
 }
 .call-to-action-title {
@@ -203,7 +203,7 @@ section {
 .services-content {
   display: flex;
   flex-direction: column;
-  flex-basis: 350px;
+  flex-basis: 300px;
 }
 
 .hero-text-container {
@@ -221,5 +221,5 @@ section {
 }
 
 .quote-section-content {
-  padding: 100px 350px;
+  padding: 100px 300px;
 }
