@@ -27,20 +27,30 @@ ul {
   justify-content: space-between;
   margin: 0 250px;
   padding-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 .nav-links {
   gap: 20px;
+  flex-wrap: wrap;
 }
 .hero-section,
 footer {
   background-color: #1f2937;
 }
+
+/* logo styling */
 #header-logo {
   font-size: 24px;
   color: #f9faf8;
 }
-.hero-section {
+#logo-style-one {
+  font-weight: 900;
 }
+#logo-style-two {
+  font-weight: 100;
+}
+/* Hero section */
 .hero-image {
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
@@ -55,14 +65,21 @@ footer {
   padding: 50px 250px;
   flex-wrap: wrap;
 }
-#logo-style-one {
-  font-weight: 900;
-}
-#logo-style-two {
-  font-weight: 100;
-}
+
 .hero-main-text {
   font-size: 48px;
+}
+
+.hero-text-container {
+  flex-basis: 300px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.hero-image-container {
+  flex-basis: 350px;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .hero-secondary-text {
@@ -83,6 +100,8 @@ footer {
 h1 {
   margin: 0;
 }
+
+/* Services-section */
 .services-section {
   display: flex;
   justify-content: center;
@@ -94,7 +113,7 @@ h1 {
   gap: 20px;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .services-thumbnail {
   height: auto;
@@ -102,8 +121,6 @@ h1 {
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border: #3882f6 solid 5px;
-}
-section {
 }
 
 .services-header-text {
@@ -127,6 +144,13 @@ section {
   color: #1f2937;
 }
 
+.services-content {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+}
+
+/* Quotes section */
 .quote-section {
   background-color: #e5e7eb;
   display: flex;
@@ -147,6 +171,11 @@ section {
   font-size: 24px;
   font-weight: 700;
 }
+
+.quote-section-content {
+  padding: 100px 300px;
+}
+/* Call to action section */
 
 .call-to-action-section {
   background-color: #fff;
@@ -192,6 +221,8 @@ section {
   flex-direction: column;
   align-items: center;
 }
+
+/* Footer section */
 .footer {
   padding: 15px 0;
 }
@@ -199,27 +230,4 @@ section {
   color: #fff;
   text-align: center;
   font-size: 24px;
-}
-.services-content {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 300px;
-}
-
-.hero-text-container {
-  flex-basis: 300px;
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
-.hero-image-container {
-  flex-basis: 350px;
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-.service-section-container {
-}
-
-.quote-section-content {
-  padding: 100px 300px;
 }
